@@ -245,7 +245,8 @@ section{
 }
 
 .btn-color-1:hover{
-    background: rgb(0, 0, 0);
+    background: white;
+    color: rgb(0, 0, 0);
 }
 
 .btn-color-2{
@@ -417,6 +418,7 @@ article .icon{
 .contact-icon{
     cursor: default;
     height: 2rem;
+    padding-right: 5px;
 }
 
 .email-icon{

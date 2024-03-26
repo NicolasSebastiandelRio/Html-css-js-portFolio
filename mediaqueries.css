@@ -43,7 +43,7 @@
 
     .section__text{
         margin-top: 5rem;
-        padding-left: 3.3rem;
+        padding-left: 3.5rem;
     }
     .section__pic-container {
         width: 250px;
@@ -124,4 +124,30 @@
         text-align: justify;
     }
 
+}
+
+@media screen and (max-width:1366px) {
+    .title,.section__text__p1{
+        padding-left: 3.5rem;
+    }
+    .about-pic{
+        padding-left: 2rem;
+        border-radius: 20px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .about-pic{
+        padding-left: 2rem;
+        border-radius: 0;
+        width: 75%;
+        height: 75%;
+    }
+    .section__text__p1{
+        padding-right:2rem;
+    }
+
+    .title{
+        padding-left: 2rem;
+    }
 }
