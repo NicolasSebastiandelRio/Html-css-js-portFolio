@@ -134,6 +134,9 @@
         padding-left: 2rem;
         border-radius: 20px;
     }
+    .section-text-p1{
+        padding-right: 4.5rem;
+    }
 }
 
 @media screen and (max-width:450px) {
@@ -143,11 +146,10 @@
         width: 75%;
         height: 75%;
     }
-    .section__text__p1{
-        padding-right:2rem;
+
+    #imgprofile{
+        width: 70%;
+        height: 70%;
     }
 
-    .title{
-        padding-left: 2rem;
-    }
 }
