@@ -132,7 +132,7 @@
     }
     .about-pic{
         padding-left: 2rem;
-        border-radius: 20px;
+        border-radius: 0px;
     }
     .section-text-p1{
         padding-right: 4.5rem;
@@ -141,7 +141,7 @@
 
 @media screen and (max-width:450px) {
     .about-pic{
-        padding-left: 2rem;
+        padding-left: 0rem;
         border-radius: 0;
         width: 75%;
         height: 75%;
@@ -152,4 +152,10 @@
         height: 70%;
     }
 
+    .section__text{
+        padding-left: 0rem;
+    }
+    .title,.section__text__p1{
+        padding-left: 0rem;
+    }
 }
