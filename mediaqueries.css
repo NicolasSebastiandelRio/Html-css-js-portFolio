@@ -159,3 +159,14 @@
         padding-left: 0rem;
     }
 }
+
+@media screen and (max-width:1920px) {
+    #contact{
+        padding-top: 15rem;
+    }
+    .project-img{
+        width: 80%;
+        height: 80%;
+    }
+
+}

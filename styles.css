@@ -214,6 +214,9 @@ section{
     cursor: pointer;
     height: 2rem;
 }
+.icon-np{
+    height: 2rem;
+}
 
 /* buttons */
 
@@ -285,8 +288,6 @@ section{
 
 .about-pic{
     border-radius: 2rem;
-    /*height: 25rem;
-    width: 25rem;*/
 }
 
 .arrow{
@@ -317,7 +318,6 @@ section{
 }
 
 /* Experience */
-
 #experience{
     position: relative;
 }
